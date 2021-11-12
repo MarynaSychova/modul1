@@ -1,1 +1,23 @@
+#include <stdio.h>
 
+int main()
+{
+	int A, B;
+	
+	do
+	{
+		printf("A: ");
+		scanf("%i", &A);
+		
+		printf("B: ");
+		scanf("%i", &B);
+	}while(A > B);
+	
+	int N = 0;
+	for (int i = A; i <= B; i++)
+	{
+		printf("%i ", i);
+		N++;
+	}
+	printf("\nN = %i\n", N); 
+}
