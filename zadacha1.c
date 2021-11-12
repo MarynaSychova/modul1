@@ -6,8 +6,11 @@ int main()
 {
 	int N;
 	
-	printf("N: ");
-	scanf("%i", &N);
+	do
+	{	
+		printf("N: ");
+		scanf("%i", &N);
+	} while (N <= 0);
 	
 	int mod;
 	
